@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/endpoint")
+@RequestMapping("/endpointRandom")
 public class EndPointsController {
 
 	@Autowired
@@ -30,7 +30,6 @@ public class EndPointsController {
 	}
 
 	@GetMapping(
-//    		path = "/consuming-latest-movie",
 			path = "/findAll", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
 	public ResponseEntity<ResponseAll> getLatestMovie() {
 //		return new ResponseEntity<ResponseAll>(movieDBConsumerService.getLastMovie(), HttpStatus.OK);

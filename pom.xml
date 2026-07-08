@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.endpoint</groupId>
-	<artifactId>DUMMY-ENDPOINTS</artifactId>
+	<artifactId>DUMMY-ENDPOINTS-RANDOM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DUMMY-ENDPOINTS</name>
+	<name>DUMMY-ENDPOINTS-RANDOM</name>
 	<description>Demo endpoints project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>

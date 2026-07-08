@@ -10,5 +10,5 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 # Asegúrate de exponer el puerto correcto del Gateway (usualmente 8080 o 9001)
-EXPOSE 5050
+#EXPOSE 5050
 ENTRYPOINT ["java", "-jar", "app.jar"]
